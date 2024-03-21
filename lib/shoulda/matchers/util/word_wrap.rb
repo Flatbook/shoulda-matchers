@@ -2,7 +2,7 @@ module Shoulda
   module Matchers
     # @private
     def self.word_wrap(document, options = {})
-      Document.new(document, options).wrap
+      Document.new(document, **options).wrap
     end
 
     # @private
