@@ -4,7 +4,7 @@ gem 'appraisal', '~> 2.0'
 gem 'bundler', '~> 1.1'
 gem 'pry', git: 'https://github.com/pry/pry.git'
 gem 'pry-byebug'
-gem 'rake', '>= 10.5.0', '< 11'
+gem 'rake', '>= 10.5.0', '< 13'
 gem 'rspec', '~> 3.2'
 gem 'zeus'
 
